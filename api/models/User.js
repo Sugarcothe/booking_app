@@ -18,7 +18,7 @@ const HotelSchema = new mongoose.Schema(
     },
     isAdmin: {
       type: Boolean,
-      requirde: false,
+      default: false,
     },
   },
   { timestamps: true }
