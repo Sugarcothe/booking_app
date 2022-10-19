@@ -1,7 +1,6 @@
-const createError = (status, message) => {
-    const err = new Error();
-    err.status = status;
-    err.message=message
-}
-
-export default createError
+export const createError = (status, message) => {
+  const err = new Error();
+  err.status = status;
+  err.message = message;
+  return err;
+};
